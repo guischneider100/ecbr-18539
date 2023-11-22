@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/mystyle.css" />
+  <link rel="stylesheet" href="css/mediastyle.css" />
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <title>ECBR 18539</title>
+</head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage">Home</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#business-scenario">BUSINESS SCENARIO</a></li>
+          <li><a href="#questions">QUESTIONS</a></li>  
+          <li><a href="#support-personnel">SUPPORT PERSONNEL</a></li> 
+          <li><a href="#client-requirements">CLIENT REQUIREMENTS</a></li> 
+
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">ASSESSMENTS<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="assessment-1.pdf" target="blank">ASSESSMENT 1</a></li>
+              <li><a href="assessment-1-answer.pdf" target="blank">ASSESSMENT 1 - ANSWERS</a></li>
+            </ul>
+          </li> 
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron text-center">
+    <h1 style="font-size: 50px; color: #FF5C35; text-shadow: -3px 0 black, 0 3px black, 3px 0 black, 0 -3px black;">Evaluate and Communicate Business Requirements By 18539</h1>
+    <button type="button" onclick="window.open('https://forms.gle/bjXeAvoFWh5eUfR68','_blank')">Answer the Questionaire</button>
+    <button type="button" onclick="window.open('https://docs.google.com/spreadsheets/d/1mS4QMpoYS-q4NPviJ2rsqH3rsU5A_azojWHpurpc9ao/edit?usp=sharing','_blank')">Check out the Answers</button>
+  </div>
+
+  <!-- Container (Business Case Section) -->
+<div id="business-scenario" class="container-fluid text-center">    
+  <img src="images/building.png" id="myimg2" style="width:17%; float:right;">
+  <h2>Business Scenario</h2>
+  <p style="text-align: left;">
+  D&K Books Pty Ltd is a bookstore owned by Mr. Dean Kerr. The business occupies two levels of an office building connected by escalators and lifts. 
+  D&K Books employs approximately six sales staff, one operation manager, two administrative officers, a bookkeeper and a marketing manager. 
+  They have an Ethernet network consisting of ten PCs (Intel I3 Desktop cloned), two switches, a router and three printers. 
+  They use the QuickBooks software to manage their entire business, including sales, inventory, ordering, accounts receivable, accounts payable, 
+  payroll and employee management. They also have two EFTPOS terminals one on each floor.
+  </p>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Support Areas</a>
+        </h4>
+      </div>
+      <div id="collapse5" class="panel-collapse collapse">
+        <div class="panel-body">
+          <img src="images/support.png" alt="Support Areas" />
+        </div>
+      </div>
+    </div>
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Stakeholders</a>
+        </h4>
+      </div>
+      <div id="collapse6" class="panel-collapse collapse">
+        <div class="panel-body"> 
+          <div id="feasible-solutions" class="container-fluid text-center bg-grey">
+            <div class="row text-center slideanim">
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/owner.png" alt="Asana">
+                  <p><strong>The Business Owner (Mr. Dean Kerr)</strong></p>
+                  <p>As the owner of D&K Books, Mr. Dean Kerr has a substantial investment in the company and is deeply committed to its success and financial growth.</p>
+                </div>
+              </div>              
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/operation.png" alt="Asana" width="400" height="300">
+                  <p><strong>Operation Manager</strong></p>
+                  <p>The operation manager is responsible for overseeing the daily activities of the bookstore, playing a vital role in ensuring that different processes are efficient and effective.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/sales.png" alt="Asana" width="400" height="300">
+                  <p><strong>Sales Staff</strong></p>
+                  <p>The sales team plays a crucial role in determining the success of the company, as they are responsible for generating sales and ensuring customer satisfaction.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/admin.png" alt="Asana" width="400" height="300">
+                  <p><strong>Administrative Officers</strong></p>
+                  <p>The efficiency of administrative officers plays a crucial role in ensuring the smooth operation of a business as they are responsible for managing a range of administrative tasks.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/books.png" alt="Asana" width="400" height="300">
+                  <p><strong>Bookkeeper</strong></p>
+                  <p>The bookkeeper's key responsibility is to effectively manage financial records, as it directly affects financial reporting and decision-making processes.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/marketing.png" alt="Asana" width="400" height="300">
+                  <p><strong>Marketing Manager</strong></p>
+                  <p>The marketing manager's efforts in promoting the bookstore and attracting customers are crucial in determining the business's visibility and sales.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/suplier.png" alt="Asana" width="400" height="300">
+                  <p><strong>Suppliers</strong></p>
+                  <p>The suppliers of books and other products have a significant impact on the bookstore's inventory and customer satisfaction. 
+                    They are crucial in delivering high-quality products within the specified timeframe, making them important stakeholders in the business.</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="thumbnail">
+                  <img src="images/customer.png" alt="Asana" width="400" height="300">
+                  <p><strong>Customers</strong></p>
+                  <p>The success of D&K Books is directly influenced by the satisfaction and preferences of its customers, who are external stakeholders. 
+                    This encompasses both online customers who browse the website and those who visit the physical store.</p>
+                </div>
+              </div>
+            </div>         
+        </div>
+      </div>
+    </div>
+  </div> 
+</div><br><br>
+
+<!-- Container (Questions) -->
+<div id="questions" class="container-fluid text-center"> 
+  <h2>Questions</h2>
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">Relationship between data, information and knowledge</a></li>
+    <li><a data-toggle="tab" href="#menu1">Quantitative data</a></li>
+    <li><a data-toggle="tab" href="#menu2">Qualitative data</a></li>
+    <li><a data-toggle="tab" href="#menu3">Quantitative + Qualitative</a></li>
+
+  </ul>
+  <div class="tab-content" style="background-color: #eee; padding: 40px; height: 70%;">
+    <div id="home" class="tab-pane fade in active">
+      <p>Data refers to unprocessed alphanumeric values obtained through various acquisition methods. In their most basic form, data comprises raw alphanumeric values. 
+        Conversely, information is the product of processing, organizing, or structuring data to provide context and significance. Essentially, information is the 
+        outcome of processed data. Knowledge, however, represents our comprehension. It is unique to each individual and is influenced by their past experiences and 
+        insights, which shape how they interpret and assign meaning to information. To translate knowledge into action, an individual must possess the authority and 
+        capability to make and implement decisions. Both knowledge and authority are necessary to generate actionable information that can have an impact.</p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <p>Quantitative data is numerical information, including counts and numbers, that has a unique value for each data set. Researchers can use this data for mathematical 
+        computations and statistical analysis, which allows them to make informed decisions in real-life situations based on these mathematical conclusions. 
+        Quantitative research is the process of collecting and analyzing numerical data. It can be used to find patterns and averages, make predictions, 
+        test causal relationships, and generalize results to wider populations.</p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <p>Qualitative data refers to non-numerical information that provides researchers with a detailed and nuanced understanding of human experiences, behaviors, 
+        perceptions, and attitudes. Unlike quantitative data, which focuses on measurable factors, qualitative data explores the essence and complexity of phenomena 
+        through descriptive and interpretive methods. You would use qualitative data to help answer questions like who your customers are, what issues or problems 
+        they're facing, and where they need to focus their attention, so you can better solve those issues.</p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <p>The sequential exploratory design approach involves first collecting and analyzing qualitative data, followed by using quantitative data to confirm or 
+        authenticate the qualitative findings. For instance, a study on the difficulties encountered by low-income families could use interviews to gather 
+        qualitative data on the barriers to healthcare access, and then use surveys to obtain quantitative data on the frequency of these obstacles.</p>
+    </div>
+    <div id="menu4" class="tab-pane fade">
+      <p>When conducting quality assurance for web design, it is essential to take into account the specific needs and preferences of the user, which are known 
+        as user requirements. The process of gathering user requirements involves utilizing different techniques like surveys, interviews, and focus groups. 
+        After identifying the user requirements, it is crucial to create a website requirements document that encompasses a checklist of acceptance criteria for 
+        each requirement.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Container (SUPPORT PERSONNEL) -->
+<div id="support-personnel" class="container-fluid ">
+  <h2>SUPPORT PERSONNEL</h2><br>
+  <div class="row text-center slideanim">
+    <div>
+      <div class="thumbnail">
+        <img src="images/personnel.png" width="1200" height="450">
+        <p><strong>Personnel</strong></p>
+      </div>
+    </div>
+  </div>
+</div><br>
+
+<!-- Container (Methods to determine client requirements) -->
+  <div id="client-requirements" class="container-fluid text-center">
+    <h2>Client Requirements</h2>
+    <br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-comment logo-small"></span>
+        <h4>INTERVIEWS</h4>
+        <p>Conduct in-depth interviews with key stakeholders to gather insights into their business objectives, values, and expectations.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-list-alt logo-small"></span>
+        <h4>SURVEYS AND QUESTIONNAIRES</h4>
+        <p>Create surveys to collect specific information about the client's preferences, target audience, and desired features.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-stats logo-small"></span>
+        <h4>COMPETITOR ANALYSIS</h4>
+        <p>Analyze competitors' websites to identify industry standards, trends, and potential areas for differentiation.</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-user logo-small"></span>
+        <h4>USER RESEARCH</h4>
+        <p>Develop user personas based on research to understand the target audience's needs, preferences, and behaviors.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-usd logo-small"></span>
+        <h4>STAKEHOLDER WORKSHOPS</h4>
+        <p>Organize workshops or brainstorming sessions with key stakeholders to collaboratively define goals, features, and priorities.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-phone logo-small"></span>
+        <h4>SOCIAL MEDIA ANALYSIS</h4>
+        <p>Review the client's social media presence and online reputation to ensure consistency in branding and messaging.</p>
+      </div>
+    </div>
+    <br><br>
+    <div class="row slideanim">
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-briefcase logo-small"></span>
+        <h4>INDUSTRY RESEARCH</h4>
+        <p>Conduct research on industry-specific design trends, user expectations, and best practices.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-thumbs-up logo-small"></span>
+        <h4>FEEDBACK SESSIONS</h4>
+        <p>Establish a feedback loop with the client throughout the design process, using prototypes or wireframes to gather input and make adjustments.</p>
+      </div>
+      <div class="col-sm-4">
+        <span class="glyphicon glyphicon-wrench logo-small"></span>
+        <h4>ACCESSIBILITY AND COMPLIANCE REQUIREMENTS</h4>
+        <p>Ensure awareness of and adherence to accessibility standards and legal requirements related to the client's industry.</p>
+      </div>
+    </div>
+
+    <br><br>
+    <img style="height: 100px;" src="images/frame.png" alt="scan by your phone" id="hideme" /> <br>
+  </div>
+
+  <footer class="container-fluid text-center" id="myfooter" style="text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;">
+    <a href="#myPage" title="To Top">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a>
+    <p style="font-size: 20px; color: #FF5C35;">Powered By Guilherme Schneider (18539)</p>
+  </footer>
+
+  
+  <script src="js/index.js"></script>
+  
+</body>
+</html>
